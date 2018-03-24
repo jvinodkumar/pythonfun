@@ -8,7 +8,7 @@ def main():
     print("hello")
     #print(x)
     #print(findMyAge())
-    #findMyAge()
+    findMyAge()
 
     #print(map(lambda w: len(w), 'It is raining cats and dogs'.split()))
     #map(<function>, <sequence/list>)

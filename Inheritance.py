@@ -19,7 +19,7 @@ class Parent(GrandParent):
         c = self.add()
         print("parent.multiplying...(a+b)*(a*b)=", self.a*self.b*c)
         return self.a*self.b*c
-
+ 
 class Child(Parent, GrandParent):
     def __init__(self,a,b):
         self.a=a

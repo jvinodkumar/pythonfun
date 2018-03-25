@@ -38,5 +38,5 @@ def main():
     print("\n(a+b)*(a*b) = ", child.mul())  # call parent class function
     child.show() # call grandchild class function
 
-
+#main
 if __name__ == '__main__':main()

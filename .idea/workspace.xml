@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac093e1-d8e1-4863-8bfd-16a268026757" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inheritance.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="datastructures.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datastructures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,11 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyClass.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyClass.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="630">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inheritance.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Inheritance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,15 +110,6 @@
             <state relative-caret-position="270">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datascience.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datascience.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="11" />
             </state>
           </provider>
         </entry>
@@ -150,6 +152,7 @@
         <option value="$PROJECT_DIR$/LabMainFile.py" />
         <option value="$PROJECT_DIR$/Database.py" />
         <option value="$PROJECT_DIR$/MyClass.py" />
+        <option value="$PROJECT_DIR$/Inheritance.py" />
       </list>
     </option>
   </component>
@@ -203,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MyClass">
+  <component name="RunManager" selected="Python.Inheritance">
     <configuration name="Database" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,6 +220,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLabs" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonLabs" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Inheritance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,23 +291,6 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="Roundup" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLabs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Roundup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="files" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,19 +310,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.PythonLabs" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Roundup" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LabMainFile" />
-      <item index="3" class="java.lang.String" itemvalue="Python.files" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Database" />
-      <item index="5" class="java.lang.String" itemvalue="Python.MyClass" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LabMainFile" />
+      <item index="2" class="java.lang.String" itemvalue="Python.files" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Database" />
+      <item index="4" class="java.lang.String" itemvalue="Python.MyClass" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Inheritance" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.MyClass" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Database" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LabMainFile" />
-        <item index="3" class="java.lang.String" itemvalue="Python.files" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Roundup" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Inheritance" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MyClass" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Database" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LabMainFile" />
+        <item index="4" class="java.lang.String" itemvalue="Python.files" />
       </list>
     </recent_temporary>
   </component>
@@ -433,14 +436,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pandasLab.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -712,14 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datastructures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SwapNum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -806,8 +793,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>

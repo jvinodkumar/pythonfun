@@ -16,10 +16,10 @@ class Parent(GrandParent):
         self.a=a
         self.b=b
     def mul(self):
-        c = self.add()
+        c = super().add()  #call parent method
         print("parent.multiplying...(a+b)*(a*b)=", self.a*self.b*c)
         return self.a*self.b*c
- 
+
 class Child(Parent, GrandParent):
     def __init__(self,a,b):
         self.a=a

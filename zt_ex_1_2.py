@@ -46,6 +46,24 @@ def ex_1_style2(input_arr):
     print("\n**** String output - style 2 ********\n")
     print(outlist)
 
+
+
+
+# using recursion * not working
+def ex_1_style3(stritem,output,item):
+    itm=''.join(stritem[:1])
+    if stritem[:1]==[]:
+        return output
+    elif itm.startswith("New:"):
+        item=item+1
+        output.append(itm)
+        ex_1_style3(stritem[1:], output,item)
+    else:
+        output[item]=output[item]+" "+itm
+        ex_1_style3(stritem[1:],output,item)
+
+
+
 def main():
     input_arr = [
         "New: Hello",
@@ -65,6 +83,10 @@ def main():
 
     ex_1_style2(input_arr)
 
+    #using recursion
+    temp = []
+    print(ex_1_style3(input_arr, temp, -1))
+    print(temp)
 
 
 if __name__ == '__main__':main()

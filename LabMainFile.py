@@ -1,4 +1,5 @@
 import datetime
+from functools import reduce
 
 x = 10 # global var
 
@@ -8,12 +9,13 @@ def main():
     print("hello")
     #print(x)
     #print(findMyAge())
-    findMyAge()
+    #-------findMyAge()
 
     #print(map(lambda w: len(w), 'It is raining cats and dogs'.split()))
     #map(<function>, <sequence/list>)
     #TODO: map() & lambda
-    lamdatest()
+    #---------lamdatest()
+    test()
 
 def findMyAge():
     print(datetime.date.today())
@@ -31,7 +33,16 @@ def lamdatest():
     print(lengths)
 
 
+def test():
+    items = [1, 2, 3, 4, 5]
+    squared = list(map(lambda x: x ** 2, items))
+    print(squared)
 
+    print(list(map(lambda x:x+1,[1,2])))
 
+    print("\nreduce ::: ")
+    print(reduce(lambda x, y: x + y, [1, 2, 3, 4]))
+    print("\nmap ::: ")
+    print(list(map(lambda x,y:x+y, [1,2,3,4,],[2,3,4,2])))
 
 if __name__ == '__main__':main()
